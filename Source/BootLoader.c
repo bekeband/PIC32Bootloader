@@ -138,7 +138,8 @@ INT main(void)
 			FRAMEWORK_FrameWorkTask(); // Run frame work related tasks (Handling Rx frame, process frame and so on)
 			// Blink LED (Indicates the user that bootloader is running).
 			BlinkLED();
-                        LATDbits.LATD1 = CheckTrigger();
+                        // Only test for checktrigger input...
+                        // LATDbits.LATD1 = CheckTrigger();
 		}
 		// Close trasnport layer.
 		TRANS_LAYER_Close();
