@@ -13,6 +13,7 @@
         <itemPath>../../Include/HardwareProfile/HardwareProfile.h</itemPath>
         <itemPath>../../Include/HardwareProfile/HardwareProfile_PIC32MX_PIM_Explorer_16.h</itemPath>
         <itemPath>../../Include/HardwareProfile/HardwareProfile_PIC32MX_USB_StarterKit.h</itemPath>
+        <itemPath>../../Include/HardwareProfile/HardwareProfile_MIKROMEDIAPIC32MX_USB.h</itemPath>
       </logicalFolder>
       <logicalFolder name="TransportLayer"
                      displayName="TransportLayer"
@@ -74,6 +75,7 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>../../linker_scripts/others</Elem>
+    <Elem>../../Include/HardwareProfile</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -124,7 +126,7 @@
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
         <property key="preprocessor-macros"
-                  value="TRANSPORT_LAYER_USB;DEMO_BOARD_USB_STARTER_KIT"/>
+                  value="TRANSPORT_LAYER_USB;MIKROMEDIA_PIC32MX_KIT"/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
         <property key="use-cci" value="false"/>

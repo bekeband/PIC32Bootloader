@@ -11,7 +11,7 @@ build/default/production/_ext/313519312/Usb_HID_tasks.o:  \
 ../../Include/USB/usb_hal_pic32.h  \
  ../../Include/USB/usb_config.h  \
  ../../Include/HardwareProfile/HardwareProfile.h  \
- ../../Include/HardwareProfile/HardwareProfile_PIC32MX_USB_StarterKit.h  \
+ ../../Include/HardwareProfile/HardwareProfile_MIKROMEDIAPIC32MX_USB.h  \
  ../../Include/./USB/usb_function_hid.h  \
 ../../Include/BootLoader.h  \
  ../../Include/USB/Usb_Tasks.h  \

@@ -122,6 +122,7 @@ INT main(void)
 	pbClk = SYSTEMConfig(SYS_FREQ, SYS_CFG_WAIT_STATES | SYS_CFG_PCACHE);
 	
 	InitLED();
+        InitPUE();
 	
 	// Enter firmware upgrade mode if there is a trigger or if the application is not valid
 	if(CheckTrigger() || !ValidAppPresent())
@@ -136,7 +137,8 @@ INT main(void)
 			TRANS_LAYER_Task(); // Run Transport layer tasks
 			FRAMEWORK_FrameWorkTask(); // Run frame work related tasks (Handling Rx frame, process frame and so on)
 			// Blink LED (Indicates the user that bootloader is running).
-			BlinkLED();	
+			BlinkLED();
+                        LATDbits.LATD1 = CheckTrigger();
 		}
 		// Close trasnport layer.
 		TRANS_LAYER_Close();
