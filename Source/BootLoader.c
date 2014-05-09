@@ -123,7 +123,6 @@ INT main(void)
 	
 	InitLED();
   InitPUE();
-  PORTBbits.RB0 = 0;
 	
 	// Enter firmware upgrade mode if there is a trigger or if the application is not valid
 	if(CheckTrigger() || !ValidAppPresent())

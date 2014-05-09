@@ -1,0 +1,85 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral.a(read_core_timer_lib.o)
+                              build/default/production/_ext/1787047461/NVMem.o (ReadCoreTimer)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral.a(write_core_timer_lib.o)
+                              build/default/production/_ext/1787047461/NVMem.o (WriteCoreTimer)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(pcache.o)
+                              build/default/production/_ext/313519312/usb_msd_bootloader.o (CheKseg0CacheOn)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+                              build/default/production/_ext/1787047461/NVMem.o (INTDisableInterrupts)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+                              build/default/production/_ext/1787047461/NVMem.o (INTRestoreInterrupts)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+                              build/default/production/_ext/313519312/usb_msd_bootloader.o (INTEnableSystemMultiVectoredInt)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(port_read_bits_lib.o)
+                              build/default/production/_ext/313519312/usb_msd_bootloader.o (PORTReadBits)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(_ports_tbl_libp.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(port_read_bits_lib.o) (PortRegTbl)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o) (INTEnableInterrupts)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(memcpy.o)
+                              build/default/production/_ext/313519312/usb_msd_bootloader.o (memcpy)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(strlen.o)
+                              build/default/production/_ext/1382283020/FSIO.o (strlen)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib/./proc/32MX460F512L/crt0_mips32r2.o (_bootstrap_exception_handler)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib/./proc/32MX460F512L/crt0_mips32r2.o (_on_reset)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib/./proc/32MX460F512L/crt0_mips32r2.o (_on_bootstrap)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib/./proc/32MX460F512L/crt0_mips32r2.o (_nmi_handler)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(pic32_software_reset.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o) (__pic32_software_reset)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(general-exception.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib/./proc/32MX460F512L/crt0_mips32r2.o (_general_exception_context)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(general-exception.o) (_general_exception_handler)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libc.a(ctypef.o)
+                              build/default/production/_ext/1382283020/FSIO.o (tolower)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libc.a(malloc.o)
+                              build/default/production/_ext/313519312/usb_host.o (malloc)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libc.a(ctype.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libc.a(ctypef.o) (_ctype)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(sbrk.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libc.a(malloc.o) (sbrk)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(errno.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(sbrk.o) (errno)
+c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(memset.o)
+                              c:/program files (x86)/microchip/xc32/v1.31/bin/../lib/gcc/pic32mx/4.5.2/../../../../pic32mx/lib\libpic32.a(sbrk.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+asciiRec            0xc8              build/default/production/_ext/313519312/usb_msd_bootloader.o
+gDataBuffer         0x200             build/default/production/_ext/1382283020/FSIO.o
+readBytes           0x4               build/default/production/_ext/313519312/usb_msd_bootloader.o
+myFile              0x4               build/default/production/_ext/313519312/usb_msd_bootloader.o
+gFileSlotOpen       0x2               build/default/production/_ext/1382283020/FSIO.o
+gTimeCrtMS          0x1               build/default/production/_ext/1382283020/FSIO.o
+cwd                 0x3c              build/default/production/_ext/1382283020/FSIO.o
+tempCWDobj          0x3c              build/default/production/_ext/1382283020/FSIO.o
+asciiBuffer         0x400             build/default/production/_ext/313519312/usb_msd_bootloader.o
+asciiFilename       0x4               build/default/production/_ext/1382283020/FSIO.o
+gFATBuffer          0x200             build/default/production/_ext/1382283020/FSIO.o
+gTimeCrtTime        0x2               build/default/production/_ext/1382283020/FSIO.o
+gFileArray          0x78              build/default/production/_ext/1382283020/FSIO.o
+FatRootDirClusterValue
+                    0x4               build/default/production/_ext/1382283020/FSIO.o
+gDiskData           0x26              build/default/production/_ext/1382283020/FSIO.o
+gTimeWrtDate        0x2               build/default/production/_ext/1382283020/FSIO.o
+fileNameLength      0x2               build/default/production/_ext/1382283020/FSIO.o
+numBytes            0x4               build/default/production/_ext/313519312/usb_msd_bootloader.o
+usbOverrideHostState
+                    0x2               build/default/production/_ext/313519312/usb_host.o
+myData              0x200             build/default/production/_ext/313519312/usb_msd_bootloader.o
+gTimeCrtDate        0x2               build/default/production/_ext/1382283020/FSIO.o
+TempClusterCalc     0x4               build/default/production/_ext/1382283020/FSIO.o
+dirCleared          0x1               build/default/production/_ext/1382283020/FSIO.o
+hexRec              0x64              build/default/production/_ext/313519312/usb_msd_bootloader.o
+gFileTemp           0x3c              build/default/production/_ext/1382283020/FSIO.o
+record              0x8               build/default/production/_ext/313519312/usb_msd_bootloader.o
+gTimeAccDate        0x2               build/default/production/_ext/1382283020/FSIO.o
+FSerrno             0x1               build/default/production/_ext/1382283020/FSIO.o
+gTimeWrtTime        0x2               build/default/production/_ext/1382283020/FSIO.o
