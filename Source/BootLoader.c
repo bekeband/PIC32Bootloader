@@ -122,7 +122,8 @@ INT main(void)
 	pbClk = SYSTEMConfig(SYS_FREQ, SYS_CFG_WAIT_STATES | SYS_CFG_PCACHE);
 	
 	InitLED();
-        InitPUE();
+  InitPUE();
+  PORTBbits.RB0 = 0;
 	
 	// Enter firmware upgrade mode if there is a trigger or if the application is not valid
 	if(CheckTrigger() || !ValidAppPresent())
