@@ -13,5 +13,5 @@ build/default/production/_ext/313519312/usb_device.o:  \
 ../../Include/USB/usb_config.h  \
  ../../Include/HardwareProfile/HardwareProfile.h  \
  ../../Include/HardwareProfile/HardwareProfile_MIKROMEDIAPIC32MX_USB.h  \
- ../../Include/HardwareProfile/../USB/usb_device_local.h  \
- ../../Include/HardwareProfile/../USB/usb_config.h 
+ ../../Include/FrameWork/../USB/usb_device_local.h  \
+ ../../Include/FrameWork/../USB/usb_config.h 
