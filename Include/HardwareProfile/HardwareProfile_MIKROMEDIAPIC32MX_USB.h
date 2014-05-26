@@ -66,7 +66,11 @@
 
 
 	
-	#define mLED              LATDbits.LATD2
+	#define mLED      LATDbits.LATD2
+  #define mLED_1    LATDbits.LATD3
+  #define mLED_2    LATDbits.LATD1
+  #define mLED_3    LATDbits.LATD0
+
 	// Blinks LED 1 on USB Starter kit
 	#define BlinkLED() (mLED = ((ReadCoreTimer() & 0x0800000) != 0))
 	#define InitLED() do{ AD1PCFG = 0; TRISDbits.TRISD2 = 0; TRISDbits.TRISD1 = 0;  \
