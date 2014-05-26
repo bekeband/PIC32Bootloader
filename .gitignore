@@ -3,3 +3,4 @@
 *.disasm
 *.hex
 *.elf
+*.map
