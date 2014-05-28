@@ -14,7 +14,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="f1" displayName="graphics" projectFiles="true">
-        <itemPath>graphics/ILIDRV.c</itemPath>
+        <itemPath>graphics.c</itemPath>
+        <itemPath>graphics.h</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>

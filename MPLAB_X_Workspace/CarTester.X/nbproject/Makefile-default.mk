@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=graphics/ILIDRV.c main.c
+SOURCEFILES_QUOTED_IF_SPACED=main.c graphics.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/graphics/ILIDRV.o ${OBJECTDIR}/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/graphics/ILIDRV.o.d ${OBJECTDIR}/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/graphics.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/graphics.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/graphics/ILIDRV.o ${OBJECTDIR}/main.o
+OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/graphics.o
 
 # Source Files
-SOURCEFILES=graphics/ILIDRV.c main.c
+SOURCEFILES=main.c graphics.c
 
 
 CFLAGS=
@@ -91,30 +91,30 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/graphics/ILIDRV.o: graphics/ILIDRV.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/graphics 
-	@${RM} ${OBJECTDIR}/graphics/ILIDRV.o.d 
-	@${RM} ${OBJECTDIR}/graphics/ILIDRV.o 
-	@${FIXDEPS} "${OBJECTDIR}/graphics/ILIDRV.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/graphics/ILIDRV.o.d" -o ${OBJECTDIR}/graphics/ILIDRV.o graphics/ILIDRV.c   
-	
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR} 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c   
 	
-else
-${OBJECTDIR}/graphics/ILIDRV.o: graphics/ILIDRV.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/graphics 
-	@${RM} ${OBJECTDIR}/graphics/ILIDRV.o.d 
-	@${RM} ${OBJECTDIR}/graphics/ILIDRV.o 
-	@${FIXDEPS} "${OBJECTDIR}/graphics/ILIDRV.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/graphics/ILIDRV.o.d" -o ${OBJECTDIR}/graphics/ILIDRV.o graphics/ILIDRV.c   
+${OBJECTDIR}/graphics.o: graphics.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/graphics.o.d 
+	@${RM} ${OBJECTDIR}/graphics.o 
+	@${FIXDEPS} "${OBJECTDIR}/graphics.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/graphics.o.d" -o ${OBJECTDIR}/graphics.o graphics.c   
 	
+else
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR} 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c   
+	
+${OBJECTDIR}/graphics.o: graphics.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/graphics.o.d 
+	@${RM} ${OBJECTDIR}/graphics.o 
+	@${FIXDEPS} "${OBJECTDIR}/graphics.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -DMIKROMEDIA_PIC32MX_KIT -DTRANSPORT_LAYER_UART -MMD -MF "${OBJECTDIR}/graphics.o.d" -o ${OBJECTDIR}/graphics.o graphics.c   
 	
 endif
 

@@ -76,7 +76,7 @@
 #elif defined(DEMO_BOARD_ETH_STARTER_KIT)
 	#include "HardwareProfile_PIC32MX_ETH_StarterKit.h"
 #elif defined (MIKROMEDIA_PIC32MX_KIT)
-	#include "HardwareProfile_MIKROMEDIAPIC32MX_USB.h"
+	#include "HardwareProfile_MIKROMEDIAPIC32MX.h"
 #else 
 		/* Note ****: User has to define board type depending on the development board. 
 	To do this, in the MPLAB IDE navigate to menu Project->Build Options->Project.

@@ -66,24 +66,22 @@
 
 
 	
-	#define mLED      LATDbits.LATD2
-  #define mLED_1    LATDbits.LATD3
-  #define mLED_2    LATDbits.LATD1
-  #define mLED_3    LATDbits.LATD0
+    #define mLED      LATDbits.LATD2
+    #define mLED_1    LATDbits.LATD3
+    #define mLED_2    LATDbits.LATD1
+    #define mLED_3    LATDbits.LATD0
 
-	// Blinks LED 1 on USB Starter kit
-	#define BlinkLED() (mLED = ((ReadCoreTimer() & 0x0800000) != 0))
-	#define InitLED() do{ AD1PCFG = 0; TRISDbits.TRISD2 = 0; TRISDbits.TRISD1 = 0;  \
-          TRISDbits.TRISD0 = 0; TRISDbits.TRISD3 = 0; LATDbits.LATD0 = 0; LATDbits.LATD1 = 0; \
-          LATDbits.LATD2 = 0; LATDbits.LATD3 = 0;\
-          }while(0);
-        #define InitPUE() do{TRISBbits.TRISB1 = 1; CNENbits.CNEN3 = 1; \
-        AD1PCFGbits.PCFG1 = 1; CNPUE = 0b0000000000001000; } while(0);
-	// Switch S3 on USB Starter Kit.
-	#define ReadSwitchStatus() (PORTBbits.RB1)
-   // Error indication.	
-	#define Error()   do{LATDbits.LATD0 = 1; LATDbits.LATD1 = 1; LATDbits.LATD2 = 1;} while(0);
-
-	
+    // Blinks LED 1 on USB Starter kit
+    #define BlinkLED() (mLED = ((ReadCoreTimer() & 0x0800000) != 0))
+    #define InitLED() do{ AD1PCFG = 0; TRISDbits.TRISD2 = 0; TRISDbits.TRISD1 = 0;  \
+    TRISDbits.TRISD0 = 0; TRISDbits.TRISD3 = 0; LATDbits.LATD0 = 0; LATDbits.LATD1 = 0; \
+    LATDbits.LATD2 = 0; LATDbits.LATD3 = 0;\
+    }while(0);
+    #define InitPUE() do{TRISBbits.TRISB1 = 1; CNENbits.CNEN3 = 1; \
+    AD1PCFGbits.PCFG1 = 1; CNPUE = 0b0000000000001000; } while(0);
+    // Switch S3 on USB Starter Kit.
+    #define ReadSwitchStatus() (PORTBbits.RB1)
+    // Error indication.
+    #define Error()   do{LATDbits.LATD0 = 1; LATDbits.LATD1 = 1; LATDbits.LATD2 = 1;} while(0);
 
 #endif
