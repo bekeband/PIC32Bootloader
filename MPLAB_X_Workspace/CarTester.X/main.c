@@ -64,8 +64,12 @@ int main(void)
 
     while(1)
     {
-        LED_0_LAT = ((ReadCoreTimer() & 0x0800000) != 0);
-        LED_3_LAT = PORTBbits.RB1;
+//        LED_0_LAT = ((ReadCoreTimer() & 0x0800000) != 0);
+        LED_0_LAT = PORTBbits.RB1;
+        DelayMs(420);
+        LED_3_LAT = 1;
+        DelayMs(420);
+        LED_3_LAT = 0;
     }
     return 0;
 }
